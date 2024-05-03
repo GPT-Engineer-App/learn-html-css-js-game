@@ -47,7 +47,7 @@ const Index = () => {
                   {course.title}
                 </Heading>
                 <Text textAlign="center">{course.description}</Text>
-                <Button colorScheme={course.colorScheme} mt={4} onClick={() => navigate("/html-course")}>
+                <Button colorScheme={course.colorScheme} mt={4}>
                   Start Course
                 </Button>
               </VStack>
